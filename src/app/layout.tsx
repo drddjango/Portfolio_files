@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     default: `Ilili Dental Spa`,
     template: `%s | Ilili Dental Spa`,
   },
+ twitter: {
+    card: 'summary_large_image',
+  },
   description:
     'Ilili Dental Spa provides top-quality dental care with a team of experienced professionals. Visit us today for a healthier smile.',
   keywords: [
