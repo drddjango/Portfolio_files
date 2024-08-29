@@ -47,7 +47,7 @@ const Footer = () => {
             <ul className="flex gap-4">
               <li>
                 <a
-                  href="https://www.facebook.com/IliliDentalSpa/"
+                  href="https://www.facebook.com/profile.php?id=100064073911629"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:underline"
@@ -67,7 +67,7 @@ const Footer = () => {
                   <SiInstagram />
                 </a>
               </li>
-              <li>
+{/*               <li>
                 <a
                   href="https://twitter.com/IliliDentalSpa"
                   target="_blank"
@@ -77,7 +77,7 @@ const Footer = () => {
                 >
                   <SiX />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
