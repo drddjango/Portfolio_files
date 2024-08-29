@@ -43,6 +43,7 @@ const formSchema = z.object({
 })
 const serviceId = process.env.NEXT_PUBLIC_SERVICE_ID
 const templateId = process.env.NEXT_PUBLIC_TEMPLATE_ID
+const userId = process.env.NEXT_PUBLIC_EMAIL_ID
 const ContactForm = () => {
   const { toast } = useToast()
   const [isRadioDisabled, setIsRadioDisabled] = useState(true)
@@ -82,12 +83,7 @@ const ContactForm = () => {
       preferredContact: data.preferredContact,
     }
     setIsSubmitting(true)
-    const result = await emailjs.send(
-      serviceId!,
-      templateId!,
-      params,
-      'xjVl0hT6JT0uCVlV4',
-    )
+    const result = await emailjs.send(serviceId!, templateId!, params, userId)
     setIsSubmitting(false)
     if (result.status === 200) {
       toast({
