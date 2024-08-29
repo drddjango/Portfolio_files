@@ -12,7 +12,7 @@ const TeamIntro = () => {
         care. Together, we are committed to delivering comprehensive dental
         solutions with a focus on innovation and excellence.
       </div>
-      <div className="relative w-full h-[60svh] max-h-[800px] overflow-hidden rounded-md">
+{/*       <div className="relative w-full h-[60svh] max-h-[800px] overflow-hidden rounded-md">
         <Image
           src={TeamPhoto}
           alt="Team Photo"
@@ -21,7 +21,7 @@ const TeamIntro = () => {
           className="object-cover object-top"
           placeholder="blur"
         />
-      </div>
+      </div> */}
     </div>
   )
 }
