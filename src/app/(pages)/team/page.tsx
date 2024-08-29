@@ -19,7 +19,8 @@ const Team = (props: Props) => {
       <FadeIn>
         <TeamIntro />
       </FadeIn>
-      <Reveal className={'w-full text-start mt-16 lg:mt-24'}>
+{/*       <Reveal className={'w-full text-start mt-16 lg:mt-24'}> */}
+      <Reveal className={'w-full text-start '}>
         <h2 className="font-heading text-4xl md:text-5xl font-medium sm:font-bold w-full text-start ">
           Dentists
         </h2>
