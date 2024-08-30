@@ -37,11 +37,11 @@ const Treatment = ({
         <div className="relative overflow-hidden">
           <div className="w-full aspect-square h-40 xl:h-52">
             <Image
-              src={`/About/about_${number}.webp`}
+              src={treatment.image}
               fill={true}
               loading="lazy"
               alt={treatment.title}
-              style={{ objectFit: 'cover', objectPosition: 'top' }}
+              style={{ objectFit: 'cover', objectPosition: 'center' }}
               className="object-cover transition-transform duration-300 md:group-hover:scale-[1.03]"
             />
           </div>
