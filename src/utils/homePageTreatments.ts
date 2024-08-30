@@ -16,7 +16,7 @@ export const homeTreatmentData: Category[] = [
         'Smile Contouring',
       ],
       image:
-        '/About/about_1.webp',
+        '/Treatments/teeth-whitening.webp',
     },
     {
       title: 'Restorative Dentistry',
@@ -24,7 +24,7 @@ export const homeTreatmentData: Category[] = [
         'We specialize in restorative dentistry which restores the function and aesthetics of teeth.',
       services: ['Composite Fillings', 'Inlays', 'OnLays', 'Crowns'],
       image:
-        '/About/about_2.webp',
+        '/Treatments/inlays.webp',
     },
     {
       title: 'Implant Dentistry',
@@ -37,6 +37,6 @@ export const homeTreatmentData: Category[] = [
         'Arch Rehabilitation',
       ],
       image:
-        '/About/about_3.webp',
+        '/Treatments/dental-implants.webp',
     },
   ]
