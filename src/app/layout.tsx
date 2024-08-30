@@ -19,6 +19,10 @@ export const metadata: Metadata = {
  twitter: {
     card: 'summary_large_image',
   },
+  icons: {
+    apple: '/favicon.ico',
+    icon: '/favicon.ico',
+  },
   description:
     'Ilili Dental Spa provides top-quality dental care with a team of experienced professionals. Visit us today for a healthier smile.',
   keywords: [
