@@ -10,9 +10,10 @@ import PageTransition from '@/components/custom/PageTransition'
 import { Toaster } from '@/components/ui/toaster'
 
 const inter = Inter({ subsets: ['latin'] })
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL),
+  metadataBase: new URL(baseUrl!),
   title: {
     default: `Ilili Dental Spa`,
     template: `%s | Ilili Dental Spa`,
