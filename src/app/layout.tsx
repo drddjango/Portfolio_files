@@ -35,6 +35,7 @@ export const metadata: Metadata = {
     'oral health',
     'dental services',
     'dental tourism',
+    'trivandrum',
   ],
 }
 
