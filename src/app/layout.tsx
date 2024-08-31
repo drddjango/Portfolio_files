@@ -15,8 +15,8 @@ const baseUrl = process.env.NEXT_PUBLIC_BASE_URL
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl!),
   title: {
-    default: `Ilili Dental Spa`,
-    template: `%s | Ilili Dental Spa`,
+    default: `ILILI Dental Spa`,
+    template: `%s | ILILI Dental Spa`,
   },
  twitter: {
     card: 'summary_large_image',
