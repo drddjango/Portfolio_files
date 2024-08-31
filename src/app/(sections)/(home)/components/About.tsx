@@ -29,9 +29,9 @@ const About = (props: Props) => {
         <div className="relative w-full h-48 md:h-72 rounded-lg shadow-md overflow-hidden">
           <Image
             src="/About/about_2.webp"
-            alt="Dentist at work"
+            alt="Clinic"
             fill={true}
-            style={{ objectFit: 'cover', objectPosition: 'top' }}
+            style={{ objectFit: 'cover', objectPosition: 'center' }}
             className="rounded-lg"
             loading="lazy"
           />
