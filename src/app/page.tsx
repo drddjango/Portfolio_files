@@ -13,8 +13,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `https://www.ililidentalspa.com/`,
   },
-  description:
-    'Ilili Dental Spa provides top-quality dental care with a team of experienced professionals. Visit us today for a healthier smile.',
   keywords: [
     'dental clinic',
     'dentist',
