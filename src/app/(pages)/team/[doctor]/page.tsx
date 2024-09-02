@@ -21,9 +21,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const currentDoctor = doctorsData.find(
     (doctorData) => doctorData.url === doctor,
   )
+  if (!currentDoctor) {
+    return {
+      title: 'Doctor Not Found - Ilili Dental Spa',
+      description: 'The doctor you are looking for could not be found.',
+    }
+  }
 
   return {
-    title: currentDoctor?.name,
+    title: `${currentDoctor.name} - ${currentDoctor.specialisation}`,
+    description: `Meet Dr. ${currentDoctor.name}, a skilled ${currentDoctor.specialisation} at Ilili Dental Spa in Kananmoola, Trivandrum.`,
+    keywords: [
+      'Ilili Dental Spa',
+      'dentist',
+      currentDoctor.name,
+      currentDoctor.specialisation,
+      'dental care',
+      'oral health',
+      'dental services',
+      'Trivandrum dentist',
+      'dental clinic Kananmoola',
+    ],
   }
 }
 const Doctor = ({ params }: Props) => {
