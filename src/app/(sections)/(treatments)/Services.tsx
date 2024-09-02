@@ -10,7 +10,7 @@ import {
 import { formatPrice } from '@/lib/utils'
 import { TreatmentProp } from '@/utils/TreatmentsData'
 import { ArrowRight, Check } from 'lucide-react'
-import Image from 'next/image'
+import { ServiceImage } from './ServiceImage'
 
 type Props = {
   service: TreatmentProp
@@ -48,17 +48,7 @@ const Services = ({ service, isInIndia }: Props) => {
             <DialogDescription className="text-start text-wrap text-md md:text-lg ">
               {service.description}
             </DialogDescription>
-            <div className="w-full h-full overflow-hidden rounded-lg">
-              <Image
-                src={service.image}
-                alt={service.name}
-                style={{ objectFit: 'cover' }}
-                className="w-full"
-                height={900}
-                width={900}
-                priority={true}
-              />
-            </div>
+            <ServiceImage alt={service.name} image={service.image} />
           </DialogHeader>
           <div className="flex flex-col gap-4">
             <h2 className="mt-2 text-bold text-gray-900/80 font-bold text-md md:text-xl underline">
