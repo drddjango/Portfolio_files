@@ -21,12 +21,12 @@ const DoctorsIntro = (props: Props) => {
               width={500}
               height={500}
               style={{ objectFit: 'cover' }}
-              className="object-cover group-hover:scale-[1.04] transition-all duration-300"
+              className="object-cover md:group-hover:scale-[1.04] transition-all duration-300"
             />
           </div>
-          <div className="absolute rounded-br-md rounded-tl-md bottom-0 right-0 bg-white px-6 py-3 group-hover:px-8 group-hover:py-4 transition-all duration-300 flex gap-4">
+          <div className="absolute rounded-br-md rounded-tl-md bottom-0 right-0 bg-white px-6 py-3 md:group-hover:px-8 md:group-hover:py-4 md:transition-all duration-300 flex gap-4">
             {doctor.name}
-            <div className="opacity-0 group-hover:opacity-100 transition-all duration-300">
+            <div className="opacity-0 md:group-hover:opacity-100 transition-all duration-300">
               <ArrowRight className="inline w-4 h-4 md:h-6 md:w-6 ml-2" />
             </div>
           </div>
