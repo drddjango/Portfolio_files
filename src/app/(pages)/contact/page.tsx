@@ -7,6 +7,19 @@ import { Metadata } from 'next'
 type Props = {}
 export const metadata: Metadata = {
   title: 'Contact Us',
+  description:
+    'Get in touch with Ilili Dental Spa, your trusted dental clinic in Kananmoola, Trivandrum. Contact us today to schedule an appointment or inquire about our dental care services.',
+  keywords: [
+    'Ilili Dental Spa',
+    'contact',
+    'dental clinic Kananmoola',
+    'dentist Trivandrum',
+    'dental appointment',
+    'oral health consultation',
+    'emergency dental care',
+    'dental services Trivandrum',
+    'family dentist Kerala',
+  ],
 }
 
 const Contact = (props: Props) => {
