@@ -68,6 +68,7 @@ const MobileMenu = ({ onClose, toggle }: Props) => {
             loading="lazy"
             style={{ objectFit: 'cover' }}
             quality={100}
+            sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
           />
         </div>
         <div className="m-4 flex flex-col justify-center w-fit place-items-center  p-8 gap-4 bg-[rgba(255,255,255,0.3)] backdrop-blur-[10px] shadow-md relative rounded-md">
