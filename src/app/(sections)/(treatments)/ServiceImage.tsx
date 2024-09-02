@@ -11,7 +11,7 @@ export const ServiceImage = ({ image, alt }: Props) => {
   const [loading, setLoading] = useState(true)
   return (
     <div className="w-full h-full overflow-hidden rounded-lg">
-      {loading && <Skeleton className="w-full h-full" />}
+      {loading && <Skeleton className="w-full h-[500px] bg-gray-300" />}
       <Image
         src={image}
         alt={alt}
