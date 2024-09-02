@@ -60,6 +60,7 @@ const NavMenu = ({ onClose, toggle }: Props) => {
             loading="lazy"
             style={{ objectFit: 'cover' }}
             quality={100}
+            sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
           />
         </div>
         <div className="flex flex-col justify-center place-items-center bg-[rgba(255,255,255,0.3)] backdrop-blur-[10px] shadow-md relative gap-5 p-5 lg:p-10 rounded-lg">
