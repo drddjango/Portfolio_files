@@ -95,7 +95,7 @@ const Team = (props: Props) => {
               placeholder="blur"
             />
           </TransitionLink>
-          <div className="flex lg:hidden flex-col justify-center place-items-center gap-4 md:gap-8">
+          <div className="hidden sm:flex lg:hidden flex-col justify-center place-items-center gap-4 md:gap-8">
             <div className="text-md md:text-lg">
               Get to know the amazing people behind our clinic and discover
               their expertise and commitment to your smile.
@@ -103,7 +103,7 @@ const Team = (props: Props) => {
             <SectionButtons href="/team" textContent="Meet Our Team" />
           </div>
         </div>
-        <div className="hidden lg:flex flex-col justify-center place-items-center gap-4 md:gap-8">
+        <div className="flex sm:hidden lg:flex flex-col justify-center place-items-center gap-4 md:gap-8">
           <div className="text-md md:text-lg">
             Get to know the amazing people behind our clinic and discover their
             expertise and commitment to your smile.
