@@ -33,7 +33,7 @@ const Treatment = ({
 }) => {
   return (
     <>
-      <div className="relative group overflow-hidden rounded-md shadow-md md:hover:shadow-lg transition-all duration-300 hover:transform md:hover:scale-[1.01] md:h-[65svh] lg:h-[60svh] w-full bg-secondary flex flex-col gap-4 md:gap-8">
+      <div className="relative group overflow-hidden rounded-md shadow-md md:hover:shadow-lg transition-all duration-300 hover:transform md:hover:scale-[1.01] w-full bg-secondary flex flex-col gap-4 md:gap-8">
         <div className="relative overflow-hidden">
           <div className="w-full aspect-square h-40 xl:h-52">
             <Image
