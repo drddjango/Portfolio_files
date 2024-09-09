@@ -86,6 +86,23 @@ export const doctorsData: DoctorProp[] = [
     ],
   },
   {
+    url: 'dr_archana_ab',
+    name: 'Dr. Archana AB',
+    certifications: ['BDS', 'MDS', 'Periodontics and Implantology'],
+    experience: 7,
+    specialisation: 'Periodontics and Implantology',
+    personalIntro: [
+      'Dr. Archana is a compassionate and highly skilled professional specializing in Periodontics and Implantology. With a strong commitment to patient-focused care, she has built a reputation for providing excellent dental treatments through her empathetic approach. She completed both her graduation and post-graduation in Periodontics and Implantology from the esteemed Government Dental College, Trivandrum.',
+
+      'Throughout her career, she has gained comprehensive experience in a range of dental procedures, including scaling and root planing, extractions, pediatric patient management, crown lengthening, pocket therapies, and minimally invasive surgeries. She has honed her skills through 3 years of junior residency and 1 year of senior residency, allowing her to expertly handle complex dental cases with precision.',
+
+      'In addition to her clinical expertise, Dr. Archana is passionate about continuous learning and advancing her knowledge in the field. She is dedicated to staying up-to-date with the latest innovations in dentistry, ensuring that her patients receive the best possible care. Her commitment to excellence has made her a trusted professional in the field of Periodontics and Implantology.'
+    ],
+    awards: [],
+    photo: '/Doctors/dr_archana_ab.webp',
+    socials: [],
+  },
+  {
     url: 'dr_devika_sg',
     name: 'Dr. Devika SG',
     certifications: ['BDS', 'Fellowship in Dental surgery and Endodontics '],
@@ -103,4 +120,5 @@ export const doctorsData: DoctorProp[] = [
       },
     ],
   },
+
 ]
