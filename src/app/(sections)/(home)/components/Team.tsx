@@ -68,7 +68,7 @@ const Team = (props: Props) => {
           </TransitionLink>
 
           <TransitionLink
-            href="/team/dr_devika_sg"
+            href="/team/dr_archana_ab"
             className="relative overflow-hidden bg-cover aspect-[1] rounded-md cursor-pointer"
           >
             <Image
