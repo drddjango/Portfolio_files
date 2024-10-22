@@ -6,6 +6,7 @@ import drVinod from '../../../../../public/Doctors/dr_vinod.webp'
 import drAnju from '../../../../../public/Doctors/dr_anju_jinendra.webp'
 import drDevika from '../../../../../public/Doctors/dr_devika.webp'
 import drArchana from '../../../../../public/Doctors/dr_archana_ab.webp'
+import drSubi from '../../../../../public/Doctors/dr_subi_e_s.webp'
 type Props = {}
 
 const Team = (props: Props) => {
@@ -67,6 +68,20 @@ const Team = (props: Props) => {
             />
           </TransitionLink>
 
+          <TransitionLink
+            href="/team/dr_subi_e_s"
+            className="relative overflow-hidden bg-cover aspect-[1] rounded-md cursor-pointer"
+          >
+            <Image
+              src={drSubi}
+              alt="Dr Subi ES"
+              fill={true}
+              className="transition-all duration-300 hover:scale-[1.04]"
+              style={{ objectFit: 'cover', objectPosition: 'top' }}
+              loading="lazy"
+              placeholder="blur"
+            />
+          </TransitionLink>
           <TransitionLink
             href="/team/dr_archana_ab"
             className="relative overflow-hidden bg-cover aspect-[1] rounded-md cursor-pointer"

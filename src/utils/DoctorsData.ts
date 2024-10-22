@@ -19,7 +19,7 @@ export const doctorsData: DoctorProp[] = [
     name: 'Dr. Arun Kumar Vidyadharan',
     certifications: ['DDS', 'MDS', 'BDS'],
     experience: 28,
-    specialisation: 'Implantologist AND Endodontist',
+    specialisation: 'Implantologist and Endodontist',
     personalIntro: [
       'Dr. Arun Kumar Vidyadharan, the founder of our clinic, is an experienced and compassionate Implantologist/Endodontist with a proven track record of delivering high-quality dentistry and enhancing patient treatments. He graduated with a BDS from Dr. MGR Medical University, India, in 1996, and completed his MDS in Endodontics from the same university in 2003. Dr. Vidyadharan further advanced his expertise with a 2-year residency program in Implant Dentistry at New York University College of Dentistry, USA, in 2010.',
 
@@ -86,6 +86,19 @@ export const doctorsData: DoctorProp[] = [
     ],
   },
   {
+    url: 'dr_subi_e_s',
+    name: 'Dr. Subi E.S.',
+    certifications: ['BDS'],
+    experience: 8,
+    specialisation: 'General Dentistry',
+    personalIntro: [
+      'Dr. Subi E. S., a skilled and compassionate dentist, brings 8 years of expertise in general dentistry, providing high-quality dental care for patients of all ages. Specializing in Root Canal Treatments (RCT), Post and Core procedures, Crown and Bridge restorative work, as well as Surgical Extractions, Dr. Subi is committed to enhancing her patients oral health and delivering personalized care. Her proficiency in these areas, combined with a patient-centered approach, has earned her a reputation for excellence and a deep sense of trust among her patients.',
+    ],
+    awards: [],
+    photo: '/Doctors/dr_subi_e_s.webp',
+    socials: [],
+  },
+  {
     url: 'dr_archana_ab',
     name: 'Dr. Archana AB',
     certifications: ['BDS', 'MDS', 'Periodontics and Implantology'],
@@ -96,7 +109,7 @@ export const doctorsData: DoctorProp[] = [
 
       'Throughout her career, she has gained comprehensive experience in a range of dental procedures, including scaling and root planing, extractions, pediatric patient management, crown lengthening, pocket therapies, and minimally invasive surgeries. She has honed her skills through 3 years of junior residency and 1 year of senior residency, allowing her to expertly handle complex dental cases with precision.',
 
-      'In addition to her clinical expertise, Dr. Archana is passionate about continuous learning and advancing her knowledge in the field. She is dedicated to staying up-to-date with the latest innovations in dentistry, ensuring that her patients receive the best possible care. Her commitment to excellence has made her a trusted professional in the field of Periodontics and Implantology.'
+      'In addition to her clinical expertise, Dr. Archana is passionate about continuous learning and advancing her knowledge in the field. She is dedicated to staying up-to-date with the latest innovations in dentistry, ensuring that her patients receive the best possible care. Her commitment to excellence has made her a trusted professional in the field of Periodontics and Implantology.',
     ],
     awards: [],
     photo: '/Doctors/dr_archana_ab.webp',
@@ -120,5 +133,4 @@ export const doctorsData: DoctorProp[] = [
       },
     ],
   },
-
 ]
