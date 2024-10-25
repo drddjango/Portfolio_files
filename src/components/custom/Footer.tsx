@@ -67,7 +67,7 @@ const Footer = () => {
                   <SiInstagram />
                 </a>
               </li>
-{/*               <li>
+              {/*               <li>
                 <a
                   href="https://twitter.com/IliliDentalSpa"
                   target="_blank"
@@ -88,6 +88,20 @@ const Footer = () => {
               Rights
             </p>
             <p>Reserved | MSME Number: UDYAM-KL-12-0028821</p>
+            <p className="mt-5">
+              Designed & Developed by{' '}
+              <a
+                href="https://landingsmadesimple.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline decoration-white hover:brightness-90"
+              >
+                {' '}
+                <span className="font-bold text-white">
+                  landings<span className="text-blue-500">made</span>simple
+                </span>
+              </a>
+            </p>
           </div>
         </div>
       </div>
