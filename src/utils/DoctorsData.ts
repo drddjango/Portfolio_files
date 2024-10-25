@@ -92,7 +92,7 @@ export const doctorsData: DoctorProp[] = [
     experience: 8,
     specialisation: 'General Dentistry',
     personalIntro: [
-      'Dr. Subi E. S., a skilled and compassionate dentist, brings 8 years of expertise in general dentistry, providing high-quality dental care for patients of all ages. Specializing in Root Canal Treatments (RCT), Post and Core procedures, Crown and Bridge restorative work, as well as Surgical Extractions, Dr. Subi is committed to enhancing her patients oral health and delivering personalized care. Her proficiency in these areas, combined with a patient-centered approach, has earned her a reputation for excellence and a deep sense of trust among her patients.',
+      'Dr. Subi E. S., a skilled and compassionate dentist, brings 8 years of expertise in general dentistry, providing high-quality dental care for patients of all ages. Specializing in Root Canal Treatments (RCT), Post and Core procedures, Crown and Bridge restorative work, as well as Surgical Extractions, Dr. Subi is committed to enhancing his patients oral health and delivering personalized care. His proficiency in these areas, combined with a patient-centered approach, has earned him a reputation for excellence and a deep sense of trust among his patients.',
     ],
     awards: [],
     photo: '/Doctors/dr_subi_e_s.webp',
