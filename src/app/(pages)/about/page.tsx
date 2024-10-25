@@ -8,14 +8,13 @@ import FadeIn from '@/components/animation/FadeIn'
 import Reveal from '@/components/animation/Reveal'
 import { Metadata } from 'next'
 
-
 type Props = {}
 export const metadata: Metadata = {
   title: 'About',
   keywords: [
     'Ilili Dental Spa',
     'about us',
-    'dental clinic Kananmoola',
+    'dental clinic Kannammoola',
     'dentist Trivandrum',
     'oral health care',
     'cosmetic dentistry',

@@ -3,7 +3,6 @@ import { doctorsData } from '@/utils/DoctorsData'
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
-
 interface Props {
   params: {
     doctor: string
@@ -30,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `${currentDoctor.name} - ${currentDoctor.specialisation}`,
-    description: `Meet Dr. ${currentDoctor.name}, a skilled ${currentDoctor.specialisation} at Ilili Dental Spa in Kananmoola, Trivandrum.`,
+    description: `Meet Dr. ${currentDoctor.name}, a skilled ${currentDoctor.specialisation} at Ilili Dental Spa in Kannammoola, Trivandrum.`,
     keywords: [
       'Ilili Dental Spa',
       'dentist',
@@ -40,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       'oral health',
       'dental services',
       'Trivandrum dentist',
-      'dental clinic Kananmoola',
+      'dental clinic Kannammoola',
     ],
   }
 }

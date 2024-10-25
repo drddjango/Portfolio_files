@@ -3,16 +3,15 @@ import FadeIn from '@/components/animation/FadeIn'
 import Reveal from '@/components/animation/Reveal'
 import { Metadata } from 'next'
 
-
 type Props = {}
 export const metadata: Metadata = {
   title: 'Contact Us',
   description:
-    'Get in touch with Ilili Dental Spa, your trusted dental clinic in Kananmoola, Trivandrum. Contact us today to schedule an appointment or inquire about our dental care services.',
+    'Get in touch with Ilili Dental Spa, your trusted dental clinic in Kannammoola, Trivandrum. Contact us today to schedule an appointment or inquire about our dental care services.',
   keywords: [
     'Ilili Dental Spa',
     'contact',
-    'dental clinic Kananmoola',
+    'dental clinic Kannammoola',
     'dentist Trivandrum',
     'dental appointment',
     'oral health consultation',

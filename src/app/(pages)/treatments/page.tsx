@@ -2,17 +2,16 @@ import { TreatmentsSection } from '@/app/(sections)/(treatments)'
 import Reveal from '@/components/animation/Reveal'
 import { Metadata } from 'next'
 
-
 type Props = {}
 
 export const metadata: Metadata = {
   title: 'Dental Treatments ',
   description:
-    'Explore the wide range of dental treatments offered at Ilili Dental Spa in Kananmoola, Trivandrum. Our services include teeth whitening, root canal therapy, dental implants, cosmetic dentistry, and more.',
+    'Explore the wide range of dental treatments offered at Ilili Dental Spa in Kannammoola, Trivandrum. Our services include teeth whitening, root canal therapy, dental implants, cosmetic dentistry, and more.',
   keywords: [
     'Ilili Dental Spa',
     'dental treatments',
-    'dental care Kananmoola',
+    'dental care Kannammoola',
     'dentist Trivandrum',
     'cosmetic dentistry',
     'teeth whitening',

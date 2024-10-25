@@ -3,17 +3,16 @@ import FadeIn from '@/components/animation/FadeIn'
 import Reveal from '@/components/animation/Reveal'
 import { Metadata } from 'next'
 
-
 type Props = {}
 
 export const metadata: Metadata = {
   title: 'Meet the Team',
   description:
-    'Get to know the skilled and friendly team of dentists and staff at Ilili Dental Spa in Kananmoola, Trivandrum. Our experienced professionals are dedicated to providing top-quality dental care to every patient.',
+    'Get to know the skilled and friendly team of dentists and staff at Ilili Dental Spa in Kannammoola, Trivandrum. Our experienced professionals are dedicated to providing top-quality dental care to every patient.',
   keywords: [
     'Ilili Dental Spa',
     'meet the team',
-    'dentists Kananmoola',
+    'dentists Kannammoola',
     'dental team Trivandrum',
     'oral health experts',
     'dental care professionals',
@@ -33,7 +32,7 @@ const Team = (props: Props) => {
       <FadeIn>
         <TeamIntro />
       </FadeIn>
-{/*       <Reveal className={'w-full text-start mt-16 lg:mt-24'}> */}
+      {/*       <Reveal className={'w-full text-start mt-16 lg:mt-24'}> */}
       <Reveal className={'w-full text-start '}>
         <h2 className="font-heading text-4xl md:text-5xl font-medium sm:font-bold w-full text-start ">
           Dentists
