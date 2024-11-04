@@ -57,7 +57,8 @@ const NavMenu = ({ onClose, toggle }: Props) => {
             src="/Background/menu_img.webp"
             alt="Background"
             fill={true}
-            loading="lazy"
+            priority={true}
+            // loading="lazy"
             style={{ objectFit: 'cover' }}
             quality={100}
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
