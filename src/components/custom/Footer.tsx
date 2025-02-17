@@ -1,5 +1,6 @@
 import { SiFacebook, SiInstagram, SiX } from '@icons-pack/react-simple-icons'
 import TransitionLink from './TransitionLink'
+import Image from 'next/image'
 
 const Footer = () => {
   return (
@@ -88,18 +89,22 @@ const Footer = () => {
               Rights
             </p>
             <p>Reserved | MSME Number: UDYAM-KL-12-0028821</p>
-            <p className="mt-5">
+            <p className="mt-5 flex items-center justify-center gap-2">
               Designed & Developed by{' '}
               <a
-                href="https://landingsmadesimple.com/"
+                href="https://www.ernyg.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline decoration-white hover:brightness-90"
+                className="hover:brightness-90"
               >
-                {' '}
-                <span className="font-bold text-white">
-                  landings<span className="text-blue-500">made</span>simple
-                </span>
+                <Image
+                  src="/logo.svg"
+                  alt="ernyg Logo"
+                  width={24}
+                  height={24}
+                  className="h-5 w-auto object-contain"
+                  priority
+                />
               </a>
             </p>
           </div>
